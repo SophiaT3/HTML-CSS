@@ -1,0 +1,78 @@
+body {
+    padding-left: 80px;
+    margin: 0%;
+}
+
+.logo {
+    position: relative;
+    float: left;
+}
+
+.rectangle {
+    position: absolute;
+    width: 110px;
+    height: 6px;
+    opacity: 35%;
+    background: #C9A96E;
+    bottom: 21px;
+}
+
+h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.active {
+    color: orange;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0%;
+}
+
+.navlist li {
+    float: left;
+    margin-right: 20px;
+}
+
+.nav {
+    float: right;
+    margin: 30px 80px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.heading {
+    font-family: "PT Sans", sans-serif;
+    color: #C9A96E;
+    text-transform: uppercase;
+}
+
+.article-info ul {
+    padding-left: 0px;
+}
+
+.article-info li {
+    float: left;
+    margin-right: 10px;
+}
+
+.article-info span {
+    color: #666;
+}
+
+.article {
+    width: 500px;
+}
+
+p {
+    font-family: "PT Sans", sans-serif;
+    margin-top: 50px;
+}
