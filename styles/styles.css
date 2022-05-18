@@ -44,17 +44,18 @@ nav img {
     height: 100%;
 }
 
-li a {
+a {
     text-decoration: none;
     color: #272727;
 }
-a:active{
+
+a:active {
     color: pink;
 }
-a:hover{
+
+a:hover {
     color: #272727;
 }
-
 .intro {
     height: 390px;
     background-image: url(../images/man_main_page.png), url(../images/woman_main_page.png);
@@ -67,6 +68,9 @@ a:hover{
 
 h2 {
     font-family: 'Playfair Display SC', serif;
+    text-transform: uppercase;
+    font-size: 27px;
+    font-weight: bold;
 }
 
 p {
@@ -86,10 +90,63 @@ p {
     left: 585px;
     top: 383px;
 }
-.h-intro{
+
+.h-intro {
     margin: 48px 0 20px;
 }
+
 .p-intro {
     width: 50%;
     margin: auto;
+}
+.h-section1{
+    margin-top: 60px;
+    z-index: 1;
+}
+.backgroundnum{
+    position: absolute;
+    z-index: 0;
+    font-size: 175px;
+    font-family: 'Playfair Display SC';
+    color: var(--main-color);
+    opacity: 20%;
+}
+
+.stylist-list {
+color: var(--main-color);
+font-family: 'Montserrat',sans-serif;
+font-weight: bold;
+text-transform: uppercase;
+font-size: 14px;
+}
+
+.stylist-list ul {
+    list-style-type:"+";
+    margin-top: 60px;
+}
+.stylist-list li{
+margin-top: 20px;
+padding-left: 9px;
+}
+.ksenia1 {
+    margin: 30px 0 60px;
+}
+h3 {
+    text-transform: uppercase;
+}
+.ksenia-description {
+    margin: 30px 0 30px;
+    font-size: 18px;
+}
+.inst {
+    font-size: 17px;
+    margin-top: 10px;
+}
+.stylist-text {
+    width: 40%;
+    text-transform: uppercase;
+    font-weight:600;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    margin-bottom: 30px;
 }
