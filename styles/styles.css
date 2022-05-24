@@ -16,16 +16,13 @@
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
-
 nav {
     display: flex;
     justify-content: space-between;
     height: 60px;
+    align-items: center;
 }
-
 nav img {
     height: 60px;
     margin-right: 30px;
@@ -36,12 +33,10 @@ nav img {
     font-size: small;
     text-transform: uppercase;
     padding: 0;
-    align-items: center;
 }
 
 .navbar li {
-    padding-left: 15px;
-    height: 100%;
+    height: 100%
 }
 
 a {
@@ -50,22 +45,22 @@ a {
 }
 
 a:active {
-    color: pink;
+    color: var(--main-color);
 }
 
 a:hover {
     color: #272727;
 }
 
-/* .intro {
-    height: 390px;
-    background-image: url(../images/man_main_page.png), url(../images/woman_main_page.png);
-    background-position: right, left;
-    background-repeat: no-repeat, no-repeat;
-    background-size: contain;
-    background-color: #e8e5de;
-    text-align: center;
-} */
+.banner {
+        height: 390px;
+        background-image: url(../images/man_main_page.png), url(../images/woman_main_page.png);
+        background-position: right, left;
+        background-repeat: no-repeat, no-repeat;
+        background-size: contain;
+        background-color: #e8e5de;
+        text-align: center;
+}
 
 h2 {
     font-family: 'Playfair Display SC', serif;
@@ -92,27 +87,29 @@ p {
     top: 383px;
 }
 
-.h-intro {
+.h-banner {
     margin: 48px 0 20px;
 }
 
-.p-intro {
+.banner-text {
     width: 50%;
     margin: auto;
 }
 
 .h-section1 {
     margin-top: 60px;
-    z-index: 1;
 }
 
-.backgroundnum {
-    position: absolute;
-    z-index: -10;
+.background {
     font-size: 165px;
     font-family: 'Playfair Display SC';
     color: var(--main-color);
     opacity: 30%;
+}
+.num01 {
+    position: relative;
+    z-index: -10;
+    bottom: 205px;
 }
 
 .stylist-list {
@@ -140,12 +137,21 @@ p {
     margin-top: 20px;
     padding-left: 9px;
 }
+.parent {
+    position: relative;
+}
+
+.num02 {
+    position: absolute;
+    z-index: -10;
+    bottom: 186px;
+}
 
 .ksenia1 {
-    margin: 30px 0 60px;
+    /* margin: 30px 0 60px; */
 }
 .ksenia2 {
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 h3 {
