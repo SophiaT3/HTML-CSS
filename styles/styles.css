@@ -57,7 +57,7 @@ a:hover {
     color: #272727;
 }
 
-.intro {
+/* .intro {
     height: 390px;
     background-image: url(../images/man_main_page.png), url(../images/woman_main_page.png);
     background-position: right, left;
@@ -65,7 +65,7 @@ a:hover {
     background-size: contain;
     background-color: #e8e5de;
     text-align: center;
-}
+} */
 
 h2 {
     font-family: 'Playfair Display SC', serif;
@@ -193,4 +193,37 @@ h3 {
 }
 .digest {
     display: flex;
+}
+.client-feedback {
+margin: 20px 0 20px;
+font-family: 'Montserrat';
+font-size: 20px;
+color: #949494;
+}
+.elena_img {
+    margin-top: 215px;
+}
+.footer {
+    background-color: var(--main-color);
+}
+.footer ul {
+    list-style-type: none;
+    margin: 15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer li a {
+    padding-right: 15px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.footer div {
+    display: flex;
+    justify-content: center;
+}
+.rights {
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 40px;
 }
