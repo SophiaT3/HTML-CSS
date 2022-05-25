@@ -27,7 +27,7 @@
                         <li class="active"><a href="#stylist">Наши стилисти</a></li>
                         <li><a href="#service">Как работает сервис</a></li>
                         <li><a href="#price">Услуги и их стоимость</a></li>
-                        <li><a href="#">Регистрация / Вход</a></li>
+                        <li><a onclick="show()" href="#">Регистрация / Вход</a></li>
                         <li><a href="#">Меню</a></li>
                     </ul>
                 </nav>
@@ -279,17 +279,26 @@
                 </div>
             </div>
         </div>
+
+        <div id="registration">
+            <h2>Регистрация</h2>
+            <p>Еще несколько моментов для предоставления наших услуг для вас.
+                И еще какой-то текст для обьяснения действий зачем это.
+                И еще немного текста для красоты и информации.</p>
+            <div id="registration-form">
+                <label for="name">Имя</label>
+                <input type="text" placeholder="Ваш ответ" name="name" id="name" required>
+                <label for="surname">Фамилия</label>
+                <input type="text" placeholder="Ваш ответ" name="surname" id="surname" required>
+                <label for="email">Email адрес</label>
+                <input type="text" placeholder="Ваш ответ" name="email" id="email" required>
+                <label for="psw">Создайте пароль</label>
+                <input type="password" placeholder="Ваш ответ" name="psw" id="psw" required>
+                <button class="btn">Зарегестрироватся &rarr;</button>
+            </div>
+        </div>
     </div>
-
-
-
-
-
-
-    </div>
-    </div>
-    </div>
-
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>

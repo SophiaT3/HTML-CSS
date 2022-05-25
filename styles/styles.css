@@ -286,3 +286,43 @@ h3 {
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 40px;
 }
+
+input[type=text], input[type=password] {
+   width: 95%;
+    padding: 2px;
+    margin: 5px 0;
+    display: inline-block;
+    border: none;
+    background: #EFEDE9;
+}
+
+#registration {
+    position: absolute;
+    display: none;
+    top: 40px;
+    right: 0;
+    background:#dbcfb4;
+    padding: 15px;
+    width: 350px;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    border-radius: 5px;
+    box-shadow: 2px 5px 16px 0px #a4a19d;
+}
+
+#registration-form {
+    color: var(--main-color);
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+#registration button {
+    height: 50px;
+    width: 95%;
+    margin-top: 10px;
+}
+.container {
+    position: relative;
+}
