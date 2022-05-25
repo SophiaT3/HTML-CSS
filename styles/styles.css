@@ -16,13 +16,16 @@
 
 ul {
     list-style-type: none;
+    padding: 0;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
     height: 60px;
     align-items: center;
 }
+
 nav img {
     height: 60px;
     margin-right: 30px;
@@ -53,13 +56,13 @@ a:hover {
 }
 
 .banner {
-        height: 390px;
-        background-image: url(../images/man_main_page.png), url(../images/woman_main_page.png);
-        background-position: right, left;
-        background-repeat: no-repeat, no-repeat;
-        background-size: contain;
-        background-color: #e8e5de;
-        text-align: center;
+    height: 390px;
+    background-image: url(../images/man_main_page.png), url(../images/woman_main_page.png);
+    background-position: right, left;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain;
+    background-color: #e8e5de;
+    text-align: center;
 }
 
 h2 {
@@ -101,15 +104,34 @@ p {
 }
 
 .background {
-    font-size: 165px;
+    font-size: 145px;
     font-family: 'Playfair Display SC';
     color: var(--main-color);
-    opacity: 30%;
+    opacity: 20%;
+    z-index: -10;
+    line-height: 1;
 }
+
 .num01 {
     position: relative;
-    z-index: -10;
-    bottom: 205px;
+    bottom: 144px;
+}
+
+.back {
+    position: absolute;
+    margin-top: 354px;
+}
+.back2 {
+    position: absolute;
+    margin: 2786px 0 0 66px;
+}
+.back3 {
+    position: absolute;
+    margin-top: 4200px;
+}
+.back4 {
+    position: absolute;
+    margin: 5000px 0 0 66px;
 }
 
 .stylist-list {
@@ -119,6 +141,7 @@ p {
     text-transform: uppercase;
     font-size: 14px;
 }
+
 .stylist-text {
     width: 40%;
     text-transform: uppercase;
@@ -137,21 +160,28 @@ p {
     margin-top: 20px;
     padding-left: 9px;
 }
+
 .parent {
     position: relative;
 }
 
 .num02 {
     position: absolute;
-    z-index: -10;
-    bottom: 186px;
+    bottom: 686px;
 }
 
 .ksenia1 {
-    /* margin: 30px 0 60px; */
+    margin: 30px 0 60px;
 }
-.ksenia2 {
-    /* margin-top: 50px; */
+
+.num03 {
+    position: absolute;
+    bottom: 434px;
+}
+
+.num04 {
+    position: absolute;
+    top: -103px;
 }
 
 h3 {
@@ -193,31 +223,52 @@ h3 {
     font-size: 20px;
 }
 
+.num05 {
+    position: absolute;
+    top: -99px;
+}
+
 .look {
     width: 50%;
-    text-transform: uppercase;
 }
+
 .digest {
     display: flex;
 }
-.client-feedback {
-margin: 20px 0 20px;
-font-family: 'Montserrat';
-font-size: 20px;
-color: #949494;
+
+.right {
+    margin-left: 25px;
 }
+
+
+.num06 {
+    position: absolute;
+    top: -83px;
+
+}
+
+.client-feedback {
+    margin: 20px 0 20px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: #949494;
+}
+
 .elena_img {
     margin-top: 215px;
 }
+
 .footer {
     background-color: var(--main-color);
 }
+
 .footer ul {
     list-style-type: none;
     margin: 15px 0 15px;
     display: flex;
     justify-content: space-between;
 }
+
 .footer li a {
     padding-right: 15px;
     color: white;
@@ -225,10 +276,12 @@ color: #949494;
     font-weight: 500;
     text-transform: capitalize;
 }
+
 .footer div {
     display: flex;
     justify-content: center;
 }
+
 .rights {
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 40px;
